@@ -1,3 +1,4 @@
+[![CI](https://github.com/nogibjj/master-python-functions-dec-2022/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/master-python-functions-dec-2022/actions/workflows/cicd.yml)
 ## Master Python Functions December 2023
 
 ### Step 1:  Use Notebook
