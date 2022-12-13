@@ -15,9 +15,9 @@ def cli():
     $ cliMathCode.py add 1 2
 
     $ cliMathCode.py subtract 1 2
-    
+
     $ cliMathCode.py multiply 1 2
-    
+
     $ cliMathCode.py divide 1 2
     """
 
