@@ -7,11 +7,10 @@ test:
 	python -m pytest -vv --cov=main --cov=mylib test_*.py
 
 format:	
-	black *.py hugging-face/zero_shot_classification.py hugging-face/hf_whisper.py
+	black *.py funcLog/*.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py\
-		 hugging-face/zero_shot_classification.py hugging-face/hf_whisper.py
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py funcLog/*.py \
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
