@@ -41,7 +41,7 @@ torchvision
 tensorflow
 #openai whisper
 git+https://github.com/openai/whisper.git 
+#Text Tools
 #yake
 yake==0.4.8
-
-
+wikipedia==1.4.0
